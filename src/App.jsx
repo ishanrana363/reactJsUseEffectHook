@@ -1,10 +1,12 @@
 import React from 'react';
-import UseEffectUndersting from "./Component/UseEffectUndersting.jsx";
+import UseEffectCallingApi from "./Component/UseEffectCallingApi.jsx";
+// import UseEffectUndersting from "./Component/UseEffectUndersting.jsx";
 
 const App = () => {
     return (
         <div>
-            <UseEffectUndersting/>
+            {/*<UseEffectUndersting/>*/}
+            <UseEffectCallingApi/>
         </div>
     );
 };
